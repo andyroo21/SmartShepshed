@@ -40,4 +40,27 @@ Gateway and sensor nodes programmed through Arduino IDE. The Srduino IDE is a pl
 Software for data base insertion Python programme.Python has been choosen mainly for it's ease of implementation and strength 
 Website is coded using Bootstrap4, CSS, and JavaScript. 
 Web/file server is running on Ubuntu 16.04.
+3. Components
+
+Gateway.
+•	Arduino Uno clone 
+•	Dragino V2 Lora RFM95 radio HAT
+•	-14dB 868mhz antenna
+•	Enclosure 
+•	Mounting bracket 
+•	
+Sensor Nodes
+•	Lora 32u4 RFM95 Lora dev board (3.3v)- Manufactured by BSFrance
+•	868 Antenna
+•	3.7V battery pack(3000mAh)
+•	5v Solar panel
+•	Sht75 air temperature and relative humidity sensor
+•	BMP280 Barometric pressure sensor
+•	Wetness sensing grid, piezo transducer for rain detection. 
+Website, data storage
+•	Reclaimed pc 
+•	Ubuntu 16.04
+•	Lamp Server
+•	MySQL data base 
+•	Python Software
  
