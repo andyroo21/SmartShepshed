@@ -36,9 +36,12 @@ The requirements for this project are as follows
 •	Software for populating database. The gateway is physically connected to the server via a USB port.  The database insertion software waits for data being sent to the serial port from the gateway when this has been received the database is opened and variables are inserted into their relevant fields 
 
 •	Website design and launch
-Gateway and sensor nodes programmed through Arduino IDE. The Srduino IDE is a platform that is commly used by hobbyists to program development boards. 
+Gateway and sensor nodes programmed through Arduino IDE. The arduino IDE is a platform that is commly used by hobbyists to program development boards. 
+
 Software for data base insertion Python programme.Python has been choosen mainly for it's ease of implementation and strength 
+
 Website is coded using Bootstrap4, CSS, and JavaScript. 
+
 Web/file server is running on Ubuntu 16.04.
 3. Components
 
