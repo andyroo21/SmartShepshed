@@ -8,3 +8,20 @@ The idea came from various projects of a similar nature that are happening in la
 The project is due to start January 2018.
 The project will be advertised by social media and local media/news outlets.
 
+2.	Requirements
+The requirements for this project are as follows
+•	Gateway to control all nodes and obtain data from them.  The Gateway is the main part of the network, it will communicate with the installed sensor nodes by using the 868 radio frequency.  It controls the nodes by issuing commands via software and asking them to take sensor readings and send the data back to the gateway. 
+•	Phase one of the project will see 10 sensor nodes installed at various sites around Shepshed.  Each individual node is addressed and “listen out “ for their command which is sent from the Gateway.  Once the command has been received the Sensor node takes readings form all its connected sensors and relays that information back to the gateway.  Measurements will happen every 90 seconds.
+•	Sensors for nodes What is a node? include Temperature, Relative Humidity, Barometric pressure and rain detection
+•	Webserver to serve the Smart Shepshed website to the outside world
+•	A MYSQL database to store data from all the sensor nodes and in turn serve that data to the hosted Smart Shepshed website via PHP and JavaScript.
+•	Data visualisation on the Smart Shepshed website in the form of graphs and dials.  Giving the real time and historical data   
+•	Software for gateway.  The software will communicate with each individual node in turn and collect each nodes sensor data. In turn it will then send all data to the server MYSQL database. 
+•	Software for sensor nodes. The software for each node “listens out” out for their command from the main gateway,  once the command has been received the sensor node then takes measurements of its connected sensors.  Once this has been completed the data is then sent back to the main gate way for storage.
+•	Software for populating database. The gateway is physically connected to the server via a USB port.  The database insertion software waits for data being sent to the serial port from the gateway when this has been received the database is opened and variables are inserted into their relevant fields 
+•	Website design and launch
+Gateway and sensor nodes programmed through Arduino IDE. 
+Software for data base insertion Python programme.. 
+Website is coded using Bootstrap4, CSS, and JavaScript. 
+Web/file server is running on Ubuntu 16.04.
+ 
