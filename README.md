@@ -38,11 +38,11 @@ The requirements for this project are as follows
 •	Website design and launch
 Gateway and sensor nodes programmed through Arduino IDE. The arduino IDE is a platform that is commly used by hobbyists to program development boards. 
 
-Software for data base insertion Python programme.Python has been choosen mainly for it's ease of implementation and strength 
+•Software for data base insertion Python programme.Python has been choosen mainly for it's ease of implementation and strength 
 
-Website is coded using Bootstrap4, CSS, and JavaScript. 
+•Website is coded using Bootstrap4, CSS, and JavaScript. 
 
-Web/file server is running on Ubuntu 16.04.
+•Web/file server is running on Ubuntu 16.04.
 3. Components
 
 Gateway.
