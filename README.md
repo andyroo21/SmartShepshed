@@ -16,7 +16,7 @@ The requirements for this project are as follows
 
 •	Phase one of the project will see 10 sensor nodes installed at various sites around Shepshed.  Each individual node is addressed and “listen out “ for their command which is sent from the Gateway.  Once the command has been received the Sensor node takes readings form all its connected sensors and relays that information back to the gateway.  Measurements will happen every 90 seconds.
 
-•	Sensors for nodes What is a node? include Temperature, Relative Humidity, Barometric pressure and rain detection
+•	Sensors for nodes will include Temperature, Relative Humidity, Barometric pressure and rain detection
 
 •	Webserver to serve the Smart Shepshed website to the outside world
 
@@ -31,8 +31,8 @@ The requirements for this project are as follows
 •	Software for populating database. The gateway is physically connected to the server via a USB port.  The database insertion software waits for data being sent to the serial port from the gateway when this has been received the database is opened and variables are inserted into their relevant fields 
 
 •	Website design and launch
-Gateway and sensor nodes programmed through Arduino IDE. 
-Software for data base insertion Python programme.. 
+Gateway and sensor nodes programmed through Arduino IDE. The Srduino IDE is a platform that is commly used by hobbyists to program development boards. 
+Software for data base insertion Python programme.Python has been choosen mainly for it's ease of implementation and strength 
 Website is coded using Bootstrap4, CSS, and JavaScript. 
 Web/file server is running on Ubuntu 16.04.
  
