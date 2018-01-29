@@ -9,8 +9,9 @@ The project is due to start January 2018.
 The project will be advertised by social media and local media/news outlets.
 
 2.	Requirements
+
 The requirements for this project are as follows
-•	Gateway to control all nodes and obtain data from them.  The Gateway is the main part of the network, it will communicate with the installed sensor nodes by using the 868 radio frequency.  It controls the nodes by issuing commands via software and asking them to take sensor readings and send the data back to the gateway. 
+  •	Gateway to control all nodes and obtain data from them.  The Gateway is the main part of the network, it will communicate with the installed sensor nodes by using the 868 radio frequency.  It controls the nodes by issuing commands via software and asking them to take sensor readings and send the data back to the gateway. 
 •	Phase one of the project will see 10 sensor nodes installed at various sites around Shepshed.  Each individual node is addressed and “listen out “ for their command which is sent from the Gateway.  Once the command has been received the Sensor node takes readings form all its connected sensors and relays that information back to the gateway.  Measurements will happen every 90 seconds.
 •	Sensors for nodes What is a node? include Temperature, Relative Humidity, Barometric pressure and rain detection
 •	Webserver to serve the Smart Shepshed website to the outside world
